@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* STYLING FOR HOME PAGE */
+.herosection-image img{
+    height: 680px;
+    width: 100%;
+}
+
+/* styling for Reservation */
+.banner1 img{
+    height: 300px;
+    width: 100%;
+}
+
+p{
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+}
+.banner2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    background-color: antiquewhite;
+    height: 350px;
+}
+
+form{
+    margin-top: 2rem;
+}
+.form1{
+   margin: 1rem;
+}
+
+input{
+    height: 3rem;
+    width: 13rem;
+}
+.reservebtn{
+    background-color: rgb(162, 217, 247);
+    height: 3rem;
+    width: 9rem;
+    border-radius: 5px;
+    margin-left: 40%;
+}
+button:hover{
+    background-color: rgb(59, 170, 167);
+}
+
+/* HERE I AM STYLING TO About page */
+.App {
+    text-align: center;
+  }
+
+h3{
+    color: rgb(59, 85, 92);
+}
+
+.about{
+    color: rgb(95, 55, 50);
+    cursor: pointer;
+    text-decoration: underline;
+}
+  
+  .App-header {
+    background-color: #e2e6ee;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(101, 66, 66);
+  }
+  
+  .content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .about-section {
+    margin-bottom: 40px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .content {
+      padding: 10px;
+    }
+    .banner2{
+      background-color: antiquewhite;
+    height: 580px;
+    }
+  }
+
+  /* STYLING FOR CONTACT PAGE */
+  .contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: antiquewhite;
+  }
+  
+  .left-container{
+    flex: 1;
+    max-width: 60%;
+    align-items: center;
+    justify-content: center;
+  }
+  li h4{
+    font-size: large;
+    margin-left: 10rem;
+  }
+  img{
+    width: 500px;
+  }
+  
+  .right-container {
+    flex: 1;
+    max-width: 60%;
+    align-items: center;
+    justify-content: center;
+  }
+  .contactsubmit{
+    background-color: rgb(155, 216, 216);
+    height: 2rem;
+    border-radius: 5px;
+  }
+  input, textarea,label {
+    width: 20rem;
+    font-size: large;
+  }
+  
+  form{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+ 
+  .contact{
+    color: rgb(132, 104, 57);
+  }
+  
+  .map {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 20px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .contact-container {
+      flex-direction: column;
+      align-items: center;
+    }
+    .banner2{
+      background-color: antiquewhite;
+    height: 580px;
+    }
+  
+    .left-container, .right-container {
+      max-width: 100%;
+    }
+  }
+ 
+  
+ /* STYLING FOR NOT FOUND PAGE */
+
+ .headcontainer{
+  display: grid;
+  align-items: center;
+  height: 80vh;
+  text-align: center;
+}
+.error{
+  font-size: 200px;
+}
+.btngroup button{
+  background-color: rgb(216, 66, 66);
+  height: 2.5rem;
+  width: 7rem;
+  border-radius: 5px;
+  border-color: rgb(12, 66, 12);
+  border-width: 3px;
+  color: rgb(6, 63, 6);
+}
+.btngroup button:hover{
+  background-color: rgb(93, 179, 43);
+}
+
+/* styling for success */
+ .counter{
+  color: red;
+ }

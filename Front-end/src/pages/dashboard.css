@@ -1,0 +1,23 @@
+/* Responsive styles for Dashboard component */
+
+/* Styles for tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #f2f2f2;
+  }
+  
+  /* Adjust styles for smaller screens */
+  @media screen and (max-width: 768px) {
+    th, td {
+      padding: 5px;
+      font-size: 12px;
+    }
+  }
+  
